@@ -38,6 +38,7 @@ a:hover {
 
 .footer {
   justify-self: flex-end;
+  border: 1px solid blue;
 }
 
 .top-menu {
@@ -86,6 +87,7 @@ a:hover {
 .header-body__right-block {
   display: flex;
   align-items: center;
+  border: 1px solid blueviolet;
 }
 
 .logo-block {
@@ -190,6 +192,7 @@ a:hover {
   margin: 0 auto;
   padding: 0 0.5rem;
   max-width: 62rem;
+  border: 1px solid orange;
 }
 .section-2__title {
   margin-bottom: 1rem;
@@ -203,6 +206,7 @@ a:hover {
   flex-wrap: wrap;
   column-gap: 1rem;
   row-gap: 1rem;
+  border: 1px solid blue;
 }
 .product-row__group {
   flex-grow: 1;
@@ -215,6 +219,7 @@ a:hover {
   flex-grow: 1;
   text-align: center;
   background-color: #ffffff;
+  border: 1px solid blueviolet;
 }
 
 .product-card {
@@ -227,6 +232,7 @@ a:hover {
 }
 .product-card__image {
   width: 5rem;
+  border: 1px solid pink;
 }
 .product-card__text {
   margin: 0.5rem 0;
@@ -253,6 +259,7 @@ a:hover {
   margin: 0 auto;
   padding: 0 0.5rem;
   max-width: 62rem;
+  border: 1px solid red;
 }
 
 .action-row {
@@ -261,26 +268,32 @@ a:hover {
   flex-wrap: wrap;
   row-gap: 1em;
   column-gap: 1rem;
+  border: 1px solid green;
 }
 .action-row__item {
   flex-grow: 1;
   flex-basis: 16rem;
+  border: 1px solid blueviolet;
 }
 
 .subscribe-card {
   height: 100%;
   display: flex;
+  flex-wrap: wrap;
   column-gap: 1.3rem;
+  row-gap: 1.3rem;
   padding: 1.1rem;
   background-color: #66C05D;
   font-size: 0.9rem;
   color: #ffffff;
+  border: 1px solid green;
 }
 .subscribe-card__left-block {
-  align-self: flex-start;
+  flex-basis: 60%;
+  border: 1px solid blueviolet;
 }
 .subscribe-card__right-block {
-  align-self: center;
+  border: 1px solid blueviolet;
 }
 .subscribe-card__title {
   margin-bottom: 1rem;
@@ -307,16 +320,24 @@ a:hover {
 .action-card {
   height: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   column-gap: 1.3rem;
+  row-gap: 1.3rem;
+  align-items: flex-start;
   padding: 1.1rem;
   background-color: #66C05D;
   font-size: 0.9rem;
   color: #ffffff;
+  border: 1px solid green;
 }
 .action-card__left-block {
-  width: 10rem;
-  align-self: flex-start;
+  flex-basis: 60%;
+  border: 1px solid blueviolet;
+}
+.action-card__right-block {
+  width: 6rem;
+  border: 1px solid blueviolet;
 }
 .action-card__title {
   margin-bottom: 1rem;
@@ -347,12 +368,17 @@ a:hover {
   margin: 0 auto;
   padding: 0 0.5rem;
   max-width: 62rem;
+  border: 1px solid red;
+}
+.footer-line-1__left-block {
+  border: 1px solid blueviolet;
 }
 .footer-line-1__right-block {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   row-gap: 0.5rem;
+  border: 1px solid blueviolet;
 }
 
 .social-row {
@@ -379,6 +405,7 @@ a:hover {
 
 .address-block {
   margin-right: 1rem;
+  border: 1px solid green;
 }
 
 .footer-line-2 {
@@ -395,7 +422,15 @@ a:hover {
   padding: 0 0.5rem;
   max-width: 62rem;
   font-size: 0.8rem;
+  border: 1px solid red;
 }
+.footer-line-2__left-block {
+  border: 1px solid blueviolet;
+}
+.footer-line-2__right-block {
+  border: 1px solid blueviolet;
+}
+
 .button--style-2:hover, .button--style-2, .button--style-1:hover, .button--style-1 {
   transition: color 0.5s, background-color 0.5s;
 }

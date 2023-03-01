@@ -40,7 +40,7 @@ $button-style-2-border-color: $color-0;
 
 // граница для отладки
 @mixin debug-border($color) { 
-    // border: 1px solid $color;
+    border: 1px solid $color;
 }
 
 //===
@@ -373,7 +373,9 @@ a {
 .subscribe-card {
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
     column-gap: 1.3rem;
+    row-gap: 1.3rem;
     padding: 1.1rem;
     background-color: $color-2;
     font-size: 0.9rem;
@@ -381,12 +383,11 @@ a {
     @include debug-border(green); 
 
     &__left-block {
-        align-self: flex-start;
+        flex-basis: 60%;
         @include debug-border(blueviolet);
     }
 
     &__right-block {
-        align-self: center;
         @include debug-border(blueviolet);
     }
 
@@ -417,8 +418,11 @@ a {
 .action-card {
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     column-gap: 1.3rem;
+    row-gap: 1.3rem;
+    align-items: flex-start;
     padding: 1.1rem;
     background-color: $color-2;
     font-size: 0.9rem;
@@ -426,12 +430,12 @@ a {
     @include debug-border(green); 
 
     &__left-block {
-        width: 10rem;
-        align-self: flex-start;
+        flex-basis: 60%;
         @include debug-border(blueviolet);
     }
 
     &__right-block {
+        width: 6rem;
         @include debug-border(blueviolet);
     }
 
