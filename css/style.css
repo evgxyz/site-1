@@ -370,6 +370,11 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.5s;
+}
+.social-icon:hover {
+  background-color: #efefef;
+  transition: background-color 0.5s;
 }
 
 .address-block {

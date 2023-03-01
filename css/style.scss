@@ -498,11 +498,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.5s;
 
-    // &__image {
-    //     height: 1rem;
-    //     @include debug-border(red);
-    // }
+    &:hover {
+        background-color: $bg-color-1;
+        transition: background-color 0.5s;
+    }
 }
 
 .address-block {
