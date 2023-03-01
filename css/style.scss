@@ -40,7 +40,7 @@ $button-style-2-border-color: $color-0;
 
 // граница для отладки
 @mixin debug-border($color) { 
-    border: 1px solid $color;
+    //border: 1px solid $color; 
 }
 
 //===
